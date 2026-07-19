@@ -12,6 +12,6 @@ An advanced, production-grade churn optimization pipeline tracking subscription 
 2. **Contract Type Attrition Mitigation Strategy:** Rolling monthly contract structures generate severe systemic volume leaks compared to fixed long-term agreements. Growth teams should configure automated discounting notifications targeting mid-tier accounts ($75+) in their first quarter to smooth out early lifecycle attrition.
 
 ## Execution Guide
-1. Drop your data file exactly at path location: `data/raw/credit_card_transactions.csv`.
+1. Drop your data file exactly at path location: `data/raw/customer_churn.csv`.
 2. Install standard dependencies environment: `pip install -r requirements.txt`
 3. Execute pipeline master core engine script: `python main.py`
